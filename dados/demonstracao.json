@@ -1,0 +1,25 @@
+{
+  "versao": 1,
+  "viagens": [
+    {
+      "destino": "Paraty",
+      "duracao": 3,
+      "orcamento": 1500,
+      "despesas": [
+        {"descricao": "Ônibus ida e volta (fictício)", "categoria": "Transporte", "valor": 300},
+        {"descricao": "Pousada (fictícia)", "categoria": "Hospedagem", "valor": 600},
+        {"descricao": "Refeições (fictícias)", "categoria": "Alimentação", "valor": 250}
+      ]
+    },
+    {
+      "destino": "Petrópolis",
+      "duracao": 2,
+      "orcamento": 800,
+      "despesas": [
+        {"descricao": "Ônibus ida e volta (fictício)", "categoria": "Transporte", "valor": 150},
+        {"descricao": "Hotel (fictício)", "categoria": "Hospedagem", "valor": 500},
+        {"descricao": "Refeições (fictícias)", "categoria": "Alimentação", "valor": 200}
+      ]
+    }
+  ]
+}
