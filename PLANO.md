@@ -30,7 +30,7 @@ hospedagem, reservas, login e IA dentro do aplicativo.
 - Testar o programa e comunicar suas decisões, limitações e aprendizados.
 
 Python, Streamlit, Plotly e JSON já são usados. Os testes existentes usam `unittest` e o `AppTest`
-do Streamlit. GitHub e Community Cloud serão usados na etapa de publicação.
+do Streamlit. GitHub e Community Cloud já são usados na publicação.
 
 ## 3. Organização e diagrama de classes
 
@@ -85,7 +85,7 @@ Não há necessidade identificada de acrescentar herança neste modelo.
 | Apresentar diagrama das classes | Diagrama textual disponível |
 | Conferir visualmente o aplicativo no navegador | Realizada pelo aluno em `localhost:8501`, com funcionamento relatado; funções experimentadas não detalhadas |
 | Validar tema e plano inicial com o professor | Pendente |
-| Publicar código no GitHub e aplicativo no Community Cloud | GitHub publicado; Community Cloud aguarda autenticação e aceite dos termos pelo aluno |
+| Publicar código no GitHub e aplicativo no Community Cloud | Concluído; código e aplicativo publicados, links conferidos |
 | Responder ao formulário atual | Respondido pelo aluno, conforme seu relato |
 | Acompanhar futuros formulários e registrar aprendizados | Pendente de acompanhamento |
 
@@ -110,7 +110,7 @@ professor e os prazos continuam pendentes.
 
 O repositório local está conectado a https://github.com/duducoba/planejador-de-viagens.
 O código e os dados fictícios foram publicados na branch main. O aplicativo
-no Community Cloud ainda aguarda autenticação do aluno.
+está publicado em https://planejador-de-viagens-duducoba.streamlit.app/
 
 ## 5. Orientações acadêmicas e diferenças em relação ao plano inicial
 
@@ -167,7 +167,7 @@ as viagens existentes. Essas funções estão implementadas e testadas. O arquiv
 | 2 | Encerrar a revisão da interface | Conferência visual geral relatada pelo aluno; ainda detalhar cenários experimentados e revisar a compreensão do fluxo entre tela e classes | A confirmar |
 | 3 | Comparação e gráficos | Implementação, testes e conferência local dos gráficos com a demonstração concluídos | Concluída tecnicamente |
 | 4 | Importação/exportação JSON | Implementada; sete testes passaram, incluindo upload inválido sem perda dos cadastros | Concluída tecnicamente |
-| 5 | Publicação e conferência | GitHub e Community Cloud acessíveis, dependências declaradas e links conferidos como visitante | Antes da entrega dos links; data a confirmar |
+| 5 | Publicação e conferência | GitHub e Community Cloud acessíveis, dependências declaradas e links públicos conferidos | Concluída tecnicamente |
 | 6 | Documentação e apresentação | README e diagrama atualizados; roteiro, demonstração e perguntas preparados; reflexão pessoal e ensaio pendentes | Antes da apresentação; data a confirmar |
 
 Os cálculos permanecem nas classes: `gastos_por_categoria()` soma por categoria
@@ -177,9 +177,9 @@ depender da ordenação. Tabela e gráfico de custos usam os mesmos resumos.
 Categorias com grafias diferentes são mantidas separadas. Sem despesas, a
 interface orienta o usuário em vez de mostrar um gráfico de categorias vazio.
 
-Na publicação futura, `app.py` será a entrada do Community Cloud, com as
-dependências declaradas em `requirements.txt`. Será preciso conferir instalação
-local, funcionamento publicado e acesso aos links sem depender da sessão do autor.
+Na publicação, `app.py` é a entrada do Community Cloud, com Python 3.12 e
+dependências declaradas em `requirements.txt`. O funcionamento publicado foi
+conferido pelo agente; os links responderam sem autenticação.
 
 O trabalho é individual: planejamento, implementação, testes, documentação,
 publicação e apresentação ficam sob responsabilidade do aluno. As datas serão
@@ -207,7 +207,7 @@ Checklist de entrega:
 - [ ] Registro do que funcionou, dificuldades e aprendizados reais.
 - [x] Formulário atual respondido, conforme relato do aluno (prazo não confirmado).
 - [ ] Acompanhar e responder eventuais novos formulários nos prazos definidos.
-- [ ] Links do aplicativo, GitHub e dados demonstrativos conferidos.
+- [x] Links do aplicativo, GitHub e dados demonstrativos conferidos.
 - [ ] Links enviados pelo Classroom antes da apresentação.
 - [x] Demonstração fictícia e roteiro de 2 minutos preparados.
 - [ ] Apresentação ensaiada pelo aluno em até 2 minutos.
@@ -217,9 +217,7 @@ Checklist de entrega:
 1. Validar tema e plano inicial com o professor.
 2. Confirmar entrega, apresentação e prazos dos formulários.
 3. Informar disponibilidade e provas para preencher o cronograma.
-4. Entrar no Community Cloud, aceitar os termos e autorizar a integração necessária
-   para publicar o repositório público duducoba/planejador-de-viagens.
-5. Confirmar com o professor como informar o link de dados de entrada manual.
+4. Confirmar com o professor como informar o link de dados de entrada manual.
 
 ## 10. Fontes do planejamento
 
@@ -235,7 +233,7 @@ Checklist de entrega:
 
 Este documento registra planejamento e progresso; não comprova aprovação do
 professor nem envio dos links finais ao Classroom. As Partes 1 a 3 e a persistência JSON estão implementadas.
-Código publicado no GitHub; o app no Community Cloud depende de autenticação e conferência do link. O material da Parte 5
+Código publicado no GitHub; aplicativo publicado no Community Cloud e links conferidos. O material da Parte 5
 está preparado; aprovação, envio ao Classroom e ensaio continuam pendentes.
 
 
@@ -248,7 +246,7 @@ está preparado; aprovação, envio ao Classroom e ensaio continuam pendentes.
   e limite de tamanho. A sessão só é substituída depois de validar todo o arquivo.
 - README e diagrama atualizados. Dependências diretas fixadas nas versões testadas.
 - GitHub criado pelo aluno e código publicado pelo agente via plugin conectado.
-  O Community Cloud apresentou tela de login e aceite dos termos; publicação do app pendente.
+  Aplicativo publicado no Streamlit Community Cloud com Python 3.12.
 - Aprovação do professor, prazo, envio ao Classroom e ensaio do aluno permanecem pendentes.
 
 Conferência local pelo agente: demonstração carregada e dois gráficos inspecionados
@@ -260,4 +258,12 @@ Links do código e dos dados publicados:
 - https://github.com/duducoba/planejador-de-viagens
 - https://github.com/duducoba/planejador-de-viagens/blob/main/dados/demonstracao.json
 
-URL pública do aplicativo: ainda pendente.
+URL pública do aplicativo: https://planejador-de-viagens-duducoba.streamlit.app/
+
+Conferência final em 26/11/2026: aplicativo, repositório e JSON bruto responderam
+HTTP 200 sem autenticação. No navegador, o agente carregou a demonstração,
+conferiu gráficos e tabela, adicionou passeio de R$ 100 a Paraty e verificou
+total R$ 1.250, saldo R$ 250 e média R$ 416,67. Selecionou Petrópolis e
+conferiu R$ 850, saldo R$ -50, média R$ 425 e aviso de orçamento ultrapassado.
+Importação/exportação foi verificada nos testes locais; não foi feita conferência
+manual completa de upload/download na nuvem. Isso não equivale ao ensaio do aluno.

@@ -4,6 +4,11 @@ Núcleo em Python do trabalho de Computação 2 da UFRJ. Os valores são
 informados manualmente em reais. O núcleo usa a biblioteca padrão do Python;
 a interface usa Streamlit e os gráficos usam Plotly, declarados em `requirements.txt`.
 
+## Aplicativo publicado
+
+[Abrir planejador de viagens](https://planejador-de-viagens-duducoba.streamlit.app/) — funciona no navegador, sem instalar Python.
+Para experimentar, clique em **Carregar demonstração fictícia** na barra lateral.
+
 ## Instalar e executar no Windows
 
 Instale o Python 3.12 pelo [site oficial](https://www.python.org/downloads/windows/),
@@ -157,7 +162,7 @@ Não é necessário usar herança neste modelo.
   Neste núcleo didático, use esses métodos e evite alterar atributos diretamente.
 
 Os dados da sessão podem ser exportados e importados em JSON pela barra lateral.
-O código e os dados estão publicados no GitHub; o aplicativo no Community Cloud aguarda autenticação.
+O código e os dados estão no GitHub, e o aplicativo está publicado no Streamlit Community Cloud.
 
 ## Verificar a interface
 
@@ -232,7 +237,13 @@ ou segredos necessários. Instale novamente `requirements.txt` ao atualizar.
 
 Código publicado em [GitHub](https://github.com/duducoba/planejador-de-viagens).
 Dados fictícios disponíveis em [demonstracao.json](https://github.com/duducoba/planejador-de-viagens/blob/main/dados/demonstracao.json).
-O aplicativo no Community Cloud aguarda login e aceite dos termos pelo aluno;
-ainda não existe URL do aplicativo publicado confirmada. Após publicar, conferir
-o aplicativo como visitante. Aprovação do professor, envio ao Classroom e
-ensaio do aluno continuam pendentes.
+Aplicativo publicado: [Planejador de viagens](https://planejador-de-viagens-duducoba.streamlit.app/).
+
+Links do aplicativo, repositório e JSON bruto responderam HTTP 200 sem autenticação
+em 26/11/2026. Na interface publicada, o agente carregou a demonstração,
+conferiu tabela e gráficos e adicionou um passeio de R$ 100 a Paraty:
+total R$ 1.250, saldo R$ 250 e média diária R$ 416,67. Ao selecionar
+Petrópolis, conferiu total R$ 850, saldo R$ -50, média R$ 425 e o aviso.
+A importação/exportação JSON foi verificada pelos testes locais; não se afirma
+teste manual completo de upload/download na nuvem. Aprovação do professor,
+envio ao Classroom e ensaio do aluno continuam pendentes.
