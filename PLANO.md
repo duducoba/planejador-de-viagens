@@ -88,6 +88,7 @@ Não há necessidade identificada de acrescentar herança neste modelo.
 | Publicar código no GitHub e aplicativo no Community Cloud | Concluído; código e aplicativo publicados, links conferidos |
 | Responder ao formulário atual | Respondido pelo aluno, conforme seu relato |
 | Acompanhar futuros formulários e registrar aprendizados | Pendente de acompanhamento |
+| Preparar apresentação presencial e conferir links de entrega | Roteiro, demonstração e perguntas preparados em material pessoal do aluno; links públicos conferidos; ensaio pendente |
 
 Na Parte 3, os quatro testes automatizados passaram, assim como o exemplo
 do núcleo. Foram conferidos os valores da tabela e dos gráficos contra as
@@ -244,6 +245,7 @@ está preparado; aprovação, envio ao Classroom e ensaio continuam pendentes.
 - Sete testes passaram: núcleo, gráficos, sessão e upload JSON. Incluem importação
   parcialmente inválida, versão incompatível, tipos incorretos, UTF-8, lista vazia
   e limite de tamanho. A sessão só é substituída depois de validar todo o arquivo.
+- O roteiro, as ações e as perguntas para estudo ficam em material pessoal, fora do repositório público.
 - README e diagrama atualizados. Dependências diretas fixadas nas versões testadas.
 - GitHub criado pelo aluno e código publicado pelo agente via plugin conectado.
   Aplicativo publicado no Streamlit Community Cloud com Python 3.12.
