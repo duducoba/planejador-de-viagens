@@ -157,7 +157,7 @@ Não é necessário usar herança neste modelo.
   Neste núcleo didático, use esses métodos e evite alterar atributos diretamente.
 
 Os dados da sessão podem ser exportados e importados em JSON pela barra lateral.
-A publicação externa está em preparação; nenhum link público foi confirmado até este registro.
+O código e os dados estão publicados no GitHub; o aplicativo no Community Cloud aguarda autenticação.
 
 ## Verificar a interface
 
@@ -230,7 +230,9 @@ Python 3.12 e dependências diretas fixadas em `requirements.txt` (Streamlit
 1.67.0 e Plotly 7.2.0). O módulo `json` já faz parte do Python. Não há chaves
 ou segredos necessários. Instale novamente `requirements.txt` ao atualizar.
 
-Publicação externa pendente de acesso às contas; nenhum link público confirmado
-até este registro. Após publicar, conferir aplicativo, GitHub e o link do arquivo
-de demonstração como visitante. Aprovação do professor, envio ao Classroom e
+Código publicado em [GitHub](https://github.com/duducoba/planejador-de-viagens).
+Dados fictícios disponíveis em [demonstracao.json](https://github.com/duducoba/planejador-de-viagens/blob/main/dados/demonstracao.json).
+O aplicativo no Community Cloud aguarda login e aceite dos termos pelo aluno;
+ainda não existe URL do aplicativo publicado confirmada. Após publicar, conferir
+o aplicativo como visitante. Aprovação do professor, envio ao Classroom e
 ensaio do aluno continuam pendentes.

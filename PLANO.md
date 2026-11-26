@@ -85,7 +85,7 @@ Não há necessidade identificada de acrescentar herança neste modelo.
 | Apresentar diagrama das classes | Diagrama textual disponível |
 | Conferir visualmente o aplicativo no navegador | Realizada pelo aluno em `localhost:8501`, com funcionamento relatado; funções experimentadas não detalhadas |
 | Validar tema e plano inicial com o professor | Pendente |
-| Publicar código no GitHub e aplicativo no Community Cloud | Preparado localmente; GitHub solicitou login, publicação e links públicos pendentes |
+| Publicar código no GitHub e aplicativo no Community Cloud | GitHub publicado; Community Cloud aguarda autenticação e aceite dos termos pelo aluno |
 | Responder ao formulário atual | Respondido pelo aluno, conforme seu relato |
 | Acompanhar futuros formulários e registrar aprendizados | Pendente de acompanhamento |
 
@@ -108,9 +108,9 @@ O formulário atual foi respondido pelo aluno. Isso não confirma aprovação
 do professor nem substitui eventuais formulários futuros. A validação do
 professor e os prazos continuam pendentes.
 
-Há um repositório Git local e os arquivos do projeto foram preparados para
-versionamento. Ainda não há remoto configurado; a publicação externa depende
-do login no GitHub e não está concluída.
+O repositório local está conectado a https://github.com/duducoba/planejador-de-viagens.
+O código e os dados fictícios foram publicados na branch main. O aplicativo
+no Community Cloud ainda aguarda autenticação do aluno.
 
 ## 5. Orientações acadêmicas e diferenças em relação ao plano inicial
 
@@ -217,8 +217,8 @@ Checklist de entrega:
 1. Validar tema e plano inicial com o professor.
 2. Confirmar entrega, apresentação e prazos dos formulários.
 3. Informar disponibilidade e provas para preencher o cronograma.
-4. Definir conta e repositório GitHub; a recomendação é repositório público
-   com o código e exemplos fictícios.
+4. Entrar no Community Cloud, aceitar os termos e autorizar a integração necessária
+   para publicar o repositório público duducoba/planejador-de-viagens.
 5. Confirmar com o professor como informar o link de dados de entrada manual.
 
 ## 10. Fontes do planejamento
@@ -235,7 +235,7 @@ Checklist de entrega:
 
 Este documento registra planejamento e progresso; não comprova aprovação do
 professor nem envio dos links finais ao Classroom. As Partes 1 a 3 e a persistência JSON estão implementadas.
-Publicação depende de autenticação e conferência dos links. O material da Parte 5
+Código publicado no GitHub; o app no Community Cloud depende de autenticação e conferência do link. O material da Parte 5
 está preparado; aprovação, envio ao Classroom e ensaio continuam pendentes.
 
 
@@ -247,10 +247,17 @@ está preparado; aprovação, envio ao Classroom e ensaio continuam pendentes.
   parcialmente inválida, versão incompatível, tipos incorretos, UTF-8, lista vazia
   e limite de tamanho. A sessão só é substituída depois de validar todo o arquivo.
 - README e diagrama atualizados. Dependências diretas fixadas nas versões testadas.
-- GitHub aberto para criar repositório, mas redirecionou para login. Nenhum
-  repositório público ou aplicativo no Community Cloud foi confirmado.
+- GitHub criado pelo aluno e código publicado pelo agente via plugin conectado.
+  O Community Cloud apresentou tela de login e aceite dos termos; publicação do app pendente.
 - Aprovação do professor, prazo, envio ao Classroom e ensaio do aluno permanecem pendentes.
 
 Conferência local pelo agente: demonstração carregada e dois gráficos inspecionados
 no navegador; custos de Petrópolis R$ 850 e Paraty R$ 1.150, categorias de Paraty
 R$ 300, R$ 600 e R$ 250. Isso não comprova ensaio do aluno ou acesso público.
+
+Links do código e dos dados publicados:
+
+- https://github.com/duducoba/planejador-de-viagens
+- https://github.com/duducoba/planejador-de-viagens/blob/main/dados/demonstracao.json
+
+URL pública do aplicativo: ainda pendente.
